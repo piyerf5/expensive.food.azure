@@ -24,38 +24,6 @@ dependencies {
 
 dependency "infrastructure" {
   config_path = "../aws-base-1"
-  mock_outputs = {
-    spokeExternalSubnets= {
-      "az1" = {
-        "id" = "1"
-      }
-    }
-    spokeWorkloadSubnets = {
-      "az1" = {
-        "id" = "1"
-      }
-    }
-    spokeSecurityGroup = {
-      "az1" = {
-        "id" = "1"
-      }
-    }
-    spoke2ExternalSubnets= {
-      "az1" = {
-        "id" = "1"
-      }
-    }
-    spoke2WorkloadSubnets = {
-      "az1" = {
-        "id" = "1"
-      }
-    }
-    spoke2SecurityGroup = {
-      "az1" = {
-        "id" = "1"
-      }
-    }
-  }
 }
 
 inputs = {
